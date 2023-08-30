@@ -15,7 +15,8 @@ public class Demo2Test
 	@Test
 public void  d1Test()
 {
-	WebDriver driver = null;
+		System.out.println("hi");
+	/*WebDriver driver = null;
 	//WebDriver driver = new ChromeDriver();
 	//driver.get("https://www.flipkart.com/");
 	
@@ -44,7 +45,7 @@ public void  d1Test()
 		driver = new EdgeDriver();
 	}
 	driver.get(URL);
-	driver.findElement(By.xpath("//input[@name=\"user_name\"]")).sendKeys(USERNAME);
+	driver.findElement(By.xpath("//input[@name=\"user_name\"]")).sendKeys(USERNAME);*/
 }
 }
 //mvn -Dbrowser=firefox -Durl=https://www.flipkart.com/ test
